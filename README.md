@@ -1,12 +1,16 @@
 # prometheus-monitoring
 Grafana
-curl -s --noproxy '*' https://bitbucket.org/terraform-code-vinoyee/test_repo/src/master/install-grafana.sh  -o install-grafana.sh
+# Download the installation script to grafana node
+wget https://github.com/Vinoyee/prometheus-grafana/blob/main/install-grafana.sh
 
 Prometheus
-curl -s --noproxy '*' https://bitbucket.org/terraform-code-vinoyee/test_repo/src/master/install-prometheus.sh -o install-prometheus.sh
-curl -s --noproxy '*' https://bitbucket.org/terraform-code-vinoyee/test_repo/src/master/prometheus.service -o prometheus.service
-curl -s --noproxy '*' https://bitbucket.org/terraform-code-vinoyee/test_repo/src/master/prometheus_serviceDiscovery.yml -o prometheus_serviceDiscovery.yml
+wget https://github.com/Vinoyee/prometheus-grafana/blob/main/install-prometheus.sh
+wget https://github.com/Vinoyee/prometheus-grafana/blob/main/prometheus.service
+wget https://github.com/Vinoyee/prometheus-grafana/blob/main/prometheus.yml
+wget https://github.com/Vinoyee/prometheus-grafana/blob/main/prometheus_ec2.yml
+wget https://github.com/Vinoyee/prometheus-grafana/blob/main/prometheus_serviceDiscovery.yml
 
-Node
-curl -s --noproxy '*' https://bitbucket.org/terraform-code-vinoyee/test_repo/src/master/install-node-exporter.sh -o install-node-exporter.sh
-curl -s --noproxy '*' https://bitbucket.org/terraform-code-vinoyee/test_repo/src/master/node-exporter.service -o node-exporter.service
+
+Nodes
+wget https://github.com/Vinoyee/prometheus-grafana/blob/main/install-node-exporter.sh
+wget https://github.com/Vinoyee/prometheus-grafana/blob/main/node-exporter.service
