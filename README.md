@@ -1,9 +1,12 @@
 # prometheus-monitoring
-Grafana
-# Download the installation script to grafana node
+Grafana Node
+# Download the following installation script to grafana node
 wget https://github.com/Vinoyee/prometheus-grafana/blob/main/install-grafana.sh
 
-Prometheus
+Prometheus Node
+
+# Download the following files
+
 wget https://github.com/Vinoyee/prometheus-grafana/blob/main/install-prometheus.sh
 wget https://github.com/Vinoyee/prometheus-grafana/blob/main/prometheus.service
 wget https://github.com/Vinoyee/prometheus-grafana/blob/main/prometheus.yml
@@ -11,6 +14,9 @@ wget https://github.com/Vinoyee/prometheus-grafana/blob/main/prometheus_ec2.yml
 wget https://github.com/Vinoyee/prometheus-grafana/blob/main/prometheus_serviceDiscovery.yml
 
 
-Nodes
+Nodes:
+
+Download the following files and execute it. 
+
 wget https://github.com/Vinoyee/prometheus-grafana/blob/main/install-node-exporter.sh
 wget https://github.com/Vinoyee/prometheus-grafana/blob/main/node-exporter.service
