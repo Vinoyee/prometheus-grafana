@@ -20,3 +20,5 @@ Download the following files and execute it.
 
 wget https://github.com/Vinoyee/prometheus-grafana/blob/main/install-node-exporter.sh
 wget https://github.com/Vinoyee/prometheus-grafana/blob/main/node-exporter.service
+
+The wget command can't be used to download files to target system. It is required to download the scripts and then upload to the target system
